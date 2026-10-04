@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarization Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+```
+<div class="container">
+
+    <h1>📝 Text Summarization Application</h1>
+
+    <p class="subtitle">
+        Enter a long text and generate a short summary
+    </p>
+
+    <textarea id="inputText"
+        placeholder="Enter your paragraph or article here..."></textarea>
+
+    <div class="buttons">
+        <button onclick="summarizeText()">Summarize Text</button>
+        <button class="clear-btn" onclick="clearText()">Clear</button>
+    </div>
+
+    <div class="result">
+        <h2>📄 Summary</h2>
+        <p id="summaryText">
+            Your summary will appear here.
+        </p>
+    </div>
+
+    <div class="examples">
+
+        <h3>Try Example</h3>
+
+        <button onclick="loadExample()">
+            Load Sample Text
+        </button>
+
+    </div>
+
+    <div class="info">
+        <h3>How It Works</h3>
+        <p>
+            The application divides the text into sentences and selects
+            important sentences based on frequently occurring words.
+        </p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
